@@ -1,0 +1,161 @@
+@media only screen and (max-width: 600px) {
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    max-width: 100vw;
+  }
+  /* some key tags  */
+  section{
+    padding: 30px 10px;
+  }
+  /* header */
+  .mob-logo{
+    display: block;
+    width: 100px;
+    height: fit-content;
+    margin: auto;
+  }
+  .mob-logo img {
+    width: 100px;
+    height: auto;
+  }
+  .header{
+    display: none;
+  }
+  .mobile-nav{
+    display: block;
+  }
+
+  main{
+    padding-bottom: 60px;
+  }
+  /* home  */
+  .home{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .home {
+    .home-left{
+      width: 100vw;
+      height: auto;
+      gap: 10px;
+    }
+    .home-left h1{
+      width: 60vw;
+      font-size: 25px;
+    }
+    .home-left h3{
+      font-size: 20px;
+    }
+    .home-left button{
+      display: none;
+    }
+    .home-left a:hover{
+      scale: 1.1;
+    }
+    .home-right{
+      width: 100vw;
+      height: auto;
+    }
+    .home-right form>div{
+      width: 80vw;
+    }
+  }
+
+  /* idea  */
+  .idea{
+    .idea-head{
+      width: 80vw;
+    }
+    .idea-content{
+      display: flex;
+      flex-direction: column;
+    }
+    .idea-cont{
+      width: 100vw;
+      margin: 0;
+    }
+    .idea-pic{
+      width: 100vw;
+    }
+  }
+
+  /* core team  */
+  .core-team{
+    .core-head{
+      padding: 20px;
+    }
+    .core-members{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .core-members > div{
+      padding: 0;
+    }
+    .core-members > div img{
+      min-width: 200px;
+      height: 200px;
+    }
+  }
+
+  /* contact us  */
+  .contact{
+    gap: 10px;
+  }
+  .contact{
+    .contact-content{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      gap: 75px;
+    }
+    .contact-content> div{
+      width: auto;
+      height: auto;
+      gap: 10px;
+    }
+    .contact-content> div > div{
+      height: auto;
+      text-align: center;
+    }
+    .contact-content i{
+      font-size: 50px;
+      margin: 7px;
+    }
+    .contact-content img{
+      width: 125px;
+      height: auto;
+      margin: 7px;
+    }
+    .dailoag-box-content{
+      width: 100%;
+    }
+    .dailoag-box-content form{
+      width: 80vw;
+      height: auto;
+      gap: 25px;
+      padding: 40px 20px;
+    }
+    .dailoag-box-content form>div{
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+    }
+    .dailoag-box-content form textarea{
+      width: 100%;
+    }  
+    .dailoag-box-content form label{
+      font-size: 16px;
+    }
+    .dailoag-box-content form input,.dailoag-box-content form textarea{
+      font-size: 14px;
+    }
+  }
+
+}

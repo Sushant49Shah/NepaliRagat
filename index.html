@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nepali-Ragat</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!--box icons  -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo mob-logo"><img src="./images/uploads/logo.png" alt="" /></div>
+      <div class="header">
+      <div class="logo"><img src="./images/uploads/logo.png" alt="" /></div>
+      <nav class="nav-bar">
+        <a href="#home">Home</a>
+        <a href="#about">Idea</a>
+        <a href="#about">About</a>
+        <a href="#coreteam">Core Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="reg"><button>Register for donation</button></div>
+    </div>
+    <!-- navigation bar for mobile -->
+    <div class="mobile-nav">
+      <ul>
+        <li class="navLi">
+          <a href="#home">
+            <box-icon name='home' type='solid' class="inactiveIcon"></box-icon>
+            <box-icon name='home' class="activeNavIcon"></box-icon>
+          </a>
+        </li>
+        <li class="navLi">
+          <a href="#about">
+            <box-icon name='user-pin' type='solid' class=""></box-icon>
+            <box-icon name='user-pin' class=""></box-icon>
+          </a>
+        </li>
+        <li class="navLi">
+          <a href="#coreteam">
+            <img class="" src="https://img.icons8.com/material-rounded/96/conference-call.png" alt="conference-call"/>
+            <img class="" src="https://img.icons8.com/material-outlined/96/conference-call.png" alt="conference-call"/>
+          </a>
+        </li>
+        <li class="navLi">
+          <a href="#contact">
+            <box-icon name='phone-call' type='solid' class=""></box-icon>
+            <box-icon name='phone-call' class=""></box-icon>
+          </a>
+        </li>
+        <div class="indicator"></div>
+      </ul>
+    </div>
+    </header>
+
+    <main>
+      <!-- <div class="space-for-header"></div> -->
+      <!--  home -->
+      <section id="home" class="home">
+        <!-- <img class="home-bg" src="./images/uploads/homeBackground.png" /> -->
+        <div class="home-left">
+          <div class="home-left-title">
+            <h1>find blood in your area at the moment</h1>
+            <h3>
+              Let's purify us & <br />
+              save others
+            </h3>
+          </div>
+          <div class="home-left-details">
+            <div class="home-left-buttons">
+              <button>About Us</button>
+              <button>Learn More</button>
+            </div>
+            <div class="home-left-links">
+              <a href="https://www.facebook.com/" target="_blank"></a>
+              <a href="https://www.instagram.com/" target="_blank"></a>
+              <a href="" target="_blank"></a>
+            </div>
+          </div>
+        </div>
+        <div class="home-right">
+          <h1>Search for your donor</h1>
+          <div class="home-right-content">
+            <form>
+              <div class="home-blood-group">
+                <label for="bloodgroup">Choose a bloodgroup:</label>
+                <select id="bloodgroup">
+                  <option value="A+">(A+) - A RhD positive</option>
+                  <option value="A-">(A-) - A RhD negative</option>
+                  <option value="B+">(B+) - B RhD positive</option>
+                  <option value="B-">(B-) - B RhD negative</option>
+                  <option value="O+">(O+) - O RhD positive</option>
+                  <option value="O-">(O-) - O RhD negative</option>
+                  <option value="AB+">(AB+) - AB RhD positive</option>
+                  <option value="AB-">(AB-) - AB RhD negative</option>
+                </select>
+              </div>
+              <div class="home-province">
+                <label for="province">Choose a Province:</label>
+                <select id="province">
+                  <option value="Koshi">Koshi</option>
+                  <option value="Madhesh">Madhesh</option>
+                  <option value="Bagmati">Bagmati</option>
+                  <option value="Gandaki">Gandaki</option>
+                  <option value="Lumbini">Lumbini</option>
+                  <option value="Karnali">Karnali</option>
+                  <option value="Sudurpashchim">Sudurpashchim</option>
+                </select>
+              </div>
+              <div class="home-district">
+                <label for="district">Choose a District:</label>
+                <select id="district">
+                  <option value="">Kathmandu</option>
+                  <option value="">Bhaktapur</option>
+                  <option value="">Lalitpur</option>
+                </select>
+              </div>
+              <div class="home-municipality">
+                <label for="municipality">Choose a Municipality:</label>
+                <select id="municipality">
+                  <option value="">Khandbari</option>
+                  <option value="">Illam</option>
+                  <option value="">Damak</option>
+                </select>
+              </div>
+              <button>Search for your donor</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- about  -->
+      <section id="about" class="idea">
+        <p class="idea-head">The Idea Behind <span>Nepali Ragat</span></p>
+        <div class="idea-content">
+          <div class="idea-cont">
+            <p class="idea-desc">
+              It all started when an idea struck in my head in the 2080 dashain.
+              When i witnessed my brothers working relentlessly for the
+              availibility of blood due to Elephant attack in my area. It really
+              hit my heart. We assume ourselves to be technologically advanced
+              but during situations like these we are so outdated. I wanted this
+              to change with my effort. And making a database of blood in our
+              area hit my head. And with some brainstorming, this idea
+              transformed into a website model which I proposed to my friend and
+              here we are!!
+            </p>
+            <p class="idea-auth">-By Sebish Niraula(Founder at Nepali Ragat)</p>
+          </div>
+          <div class="idea-pic">
+            <div class="idea-pic-img">
+              <img src=".\/images/uploads/donation.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- core team -->
+      <section id="coreteam" class="core-team">
+        <div class="core-head">
+          <p>Our Core <span>team</span></p>
+        </div>
+        <div class="core-members">
+          <div class="founder">
+            <img src=".\/images/uploads/founder.jpg" alt="" />
+            <span>Sebish Niraula</span>
+            <p>Founder</p>
+          </div>
+          <div class="cofounder">
+            <img src=".\/images/uploads/cofounder.jpg" alt="" />
+            <span>Sushant Shah</span>
+            <p>Co-Founder and CTO</p>
+          </div>
+          <div class="cfo">
+            <img src=".\/images/uploads/cfo.jfif" alt="" />
+            <span>Spandan Sigdel</span>
+            <p>Managerial Director</p>
+          </div>
+          <div class="healthS">
+            <img src=".\/images/uploads/healthS.jpg" alt="" />
+            <span>Pratik Banjade</span>
+            <p>Health Supervisor</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact page -->
+      <section id="contact" class="contact">
+        <h1>Contact <span>Us</span></h1>
+        <div class="contact-content">
+          <div class="contact-live-chat">
+            <img src="./images/uploads/livechat.png" alt="" />
+            <div class="live-chat-desc">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                vitae!
+              </p>
+              <span>descriptions Lorem ipsum dolor sit amet.</span>
+            </div>
+            <button class="live-chat-btn">LIVE CHAT NOW</button>
+          </div>
+
+          <div class="contact-send-msg">
+            <i class="fa-solid fa-message"></i>
+            <div class="msg-desc">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                vitae!
+              </p>
+              <span>descriptions Lorem ipsum dolor sit amet.</span>
+            </div>
+            <button class="msg-btn" id="send-msg">Send Message</button>
+            <div class="msg-dailoag-box" id="modal-box">
+              <div class="dailoag-box-content">
+                <span class="close" id="close">&times;</span>
+                <form>
+                  <div class="name">
+                    <label for="name"><p>Name:</p></label>
+                    <input type="text" id="name" placeholder="Your Name" />
+                  </div>
+                  <div class="email">
+                    <label for="email"><p>Email:</p></label>
+                    <input type="email" id="email" placeholder="Valid Email" required/>
+                  </div>
+                  <div class="address">
+                    <label for="addr"><p>Address:</p></label>
+                    <input type="text" id="addr" placeholder="Province - Municipality"/>
+                  </div>
+                  <div class="message">
+                    <label for="msg"><p>Message:</p></label>
+                    <textarea type="email" id="msg" placeholder="Your Message">Hello, </textarea>
+                  </div>
+                  <button>Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-call">
+            <i class="fa-solid fa-phone"></i>
+            <div class="call-desc">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                vitae!
+              </p>
+              <span>descriptions Lorem ipsum dolor sit amet.</span>
+            </div>
+            <button class="call-btn">Call Us</button>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
+  </body>
+  <script src="./js/script.js"></script>
+  <script src="./js/responsive.js"></script>
+</html>
